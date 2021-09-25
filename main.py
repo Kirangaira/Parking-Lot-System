@@ -1,4 +1,3 @@
-import fileinput
 import sys
 import re
 from parking_lot import ParkingLot, Car
@@ -66,17 +65,18 @@ def process(cmd_params):
 # Handling Input 
 
 if len(sys.argv) == 1:
-# To handle individual commands input
-    while True:
+    file = open('input.txt', 'r')
+    for line in file:
       try:
-        line = input()
         process(line)
       except Exception as e:
         print("Error:", e)
-else:
-# To read commands from text file
-    for line in fileinput.input():
+    print("Done executing input.txt...")
+    print()
+    print("Enter individual command or type 'exit' to terminate:")
+    while True:
       try:
+        line = input()
         process(line)
       except Exception as e:
         print("Error:", e)
