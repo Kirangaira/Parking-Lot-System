@@ -1,4 +1,4 @@
-# Problem Statement
+## Problem Statement
 We own a parking lot that can hold up to ‘n’ cars at any given point in time. Each slot is given a number starting at one increasing with increasing distance from the entry point in steps of one. We want to create an automated ticketing system that allows our customers to use our parking lot without human intervention.
 
 When a car enters the parking lot, we want to have a ticket issued to the driver. The ticket issuing process includes:- 
@@ -16,7 +16,7 @@ Due to government regulation, the system should provide us with the ability to f
 
 We get the input by reading input.txt directly (you’ll have to create it in your environment) .The file will contain a set of commands separated by a newline, we need to execute the commands in order and produce output.
 
-## Input (input.txt)
+### Input (input.txt)
 ```
 Create_parking_lot 6
 Park KA-01-HH-1234 driver_age 21
@@ -28,7 +28,7 @@ Leave 2
 Park HR-29-TG-3098 driver_age 39
 Vehicle_registration_number_for_driver_of_age 18
 ```
-## Output (In stdout)
+### Output (In stdout)
 
 ```
 Created parking of 6 slots
@@ -41,7 +41,7 @@ Slot number 2 vacated, the car with vehicle registration number "PB-01-HH-1234" 
 Car with vehicle registration number "HR-29-TG-3098" has been parked at slot number 2
 ```
 
-## Description of each command from the above input file:
+### Description of each command from the above input file:
 Command      | Description of command
 ------------ | -------------
 Create_parking_lot 6 | Create a parking lot of 6 slots
@@ -54,11 +54,11 @@ Leave 2 | Vacate the slot number 2 from the parking lot, i.e. car which was park
 Park HR-29-TG-3098 driver_age 39 | Park car with vehicle registration number “ HR-29-TG-3098”, and the car is driven by the driver of age 39
 Vehicle_registration_number_for_driver_of_age 18 | Get all parked vehicle registration number of cars parked by the driver of age 18
 
-## Project Requirements:
+### Project Requirements:
 
 - Python 3.8
 
-## Commands to run the Program:
+### Commands to run the Program:
 
 From project directory, run the following commands:
 
