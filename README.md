@@ -71,9 +71,11 @@ To execute individual command from command line:
  ```
  python3.8 main.py
  ```
+ Then type individual commands.
  > Example:
  ```
  python3.8 main.py 
+ 
  Create_parking_lot 6
  ```
 To run test cases:
