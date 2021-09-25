@@ -7,6 +7,9 @@ parking_lot = ParkingLot()
 
 # Function to process individual command
 def process(cmd_params):
+  '''
+  To Process the input based on command
+  '''
   params = cmd_params.strip().split(' ')
   command = params[0]
 
