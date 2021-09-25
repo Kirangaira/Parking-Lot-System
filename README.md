@@ -62,12 +62,12 @@ Vehicle_registration_number_for_driver_of_age 18 | Get all parked vehicle regist
 
 From project directory, run the following commands:
 
-To execute the commands in input.txt: 
+To execute the commands in input.txt, type the following in <b>shell</b>: 
  ```
  python3.8 main.py
  ```
 
-To execute individual command, refer to the above table and type the command when program is running:
+To execute individual command, refer to the above table and type the command in ***console*** when program is running:
 
 For example:
 ```
@@ -78,7 +78,7 @@ To terminate the program:
 ```
 exit
 ```
-To run test cases:
+To run test cases, type the following in <b>shell</b>:
  ```
  python3.8 test.py
  ```
