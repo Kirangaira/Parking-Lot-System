@@ -64,20 +64,16 @@ From project directory, run the following commands:
 
 To execute the commands in input.txt: 
  ```
- python3.8 main.py input.txt
- ```
- 
-To execute individual command from command line:
- ```
  python3.8 main.py
  ```
- Then type individual commands.
- > Example:
- ```
- python3.8 main.py 
- 
- Create_parking_lot 6
- ```
+
+To execute individual command, refer to the above table and type the command when program is running:
+
+For example:
+```
+Park KA-01-HM-2134 driver_age 21
+```
+
 To terminate the program:
 ```
 exit
