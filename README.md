@@ -73,7 +73,8 @@ To execute individual command from command line:
  ```
  > Example:
  ```
- python3.8 main.py Create_parking_lot 6
+ python3.8 main.py 
+ Create_parking_lot 6
  ```
 To run test cases:
  ```
