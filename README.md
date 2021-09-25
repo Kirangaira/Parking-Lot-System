@@ -78,6 +78,10 @@ To execute individual command from command line:
  
  Create_parking_lot 6
  ```
+To terminate the program:
+```
+exit
+```
 To run test cases:
  ```
  python3.8 test.py
