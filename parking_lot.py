@@ -92,7 +92,7 @@ class ParkingLot:
             return True
 
         else:
-            print("slot is not in use")
+            print("Slot already vacant")
             return False
 
     def status(self):
